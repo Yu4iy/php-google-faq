@@ -54,7 +54,8 @@ function map($arrayPasato, $userProfileDaricevere){
     <title>Google FAQ</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrapper">
@@ -67,7 +68,7 @@ function map($arrayPasato, $userProfileDaricevere){
                 </div>
 
                 <div class="header-buttons">
-                    <i class="fas fa-th header-buttons__popup"></i>
+                    <i class="bi bi-grid-3x3-gap-fill header-buttons__popup"></i>
                     <button class="header-buttons__btn">Accedi</button>
                 </div>
             </div>
@@ -105,8 +106,9 @@ function map($arrayPasato, $userProfileDaricevere){
                     <span>Termini</span>
                 </div>
                 <div class="footer__lang">
-                    <select class="select" name="" id="">
-                        <option value="0">Italiano</option>
+                    <select name="lang" id="lang">
+                        <option value="Italiano" selected>Italiano</option>
+                        <option value="English">English</option>
                     </select>
                 </div>
             </div>           

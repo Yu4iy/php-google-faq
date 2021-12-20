@@ -72,6 +72,7 @@
     }
     .nav__li{
         margin-right: 30px;
+        margin-top: 10px;
         border-bottom: 4px solid rgba(0, 0, 255, 0);
 
     }
@@ -83,7 +84,7 @@
 
     .main{
         flex: 1 0 auto;
-        margin-top: 83px;
+        margin-top: 100px;
     }
     .main h3{
         margin-top: 80px;
@@ -106,7 +107,7 @@
         content: '';
         padding: 0px;
     }
-    .select{
+    .footer__lang select{
         width: 225px;
         font-size: 16px;
     }
